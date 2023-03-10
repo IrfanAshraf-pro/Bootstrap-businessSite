@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Business Website</title>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top shadow">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand font-monospace">Irfan Media</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle Navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbar">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="#" class="nav-link active text-uppercase">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#About" class="nav-link text-uppercase">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Team" class="nav-link text-uppercase">Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Services" class="nav-link text-uppercase">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Contact" class="nav-link text-uppercase">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- HEADER -->
+    <header
+      class="vh-100"
+      style="
+        background: url(https://source.unsplash.com/GWe0dlVD9e0) center/cover
+          no-repeat;
+      "
+    >
+      <div class="container mt-5 pt-5 h-25">
+        <h4 class="text-light font-monospace text-shadow animate-text-right">
+          Financial Planning For life
+        </h4>
+        <h1 class="display-1 text-white text-shadow animate-text-right-3s">
+          Trusted to help guide entrepreneurs make financial decisions .
+        </h1>
+        <button
+          class="btn btn-lg btn-info shadow mt-3 animate-text-right-5s"
+          data-bs-toggle="modal"
+          data-bs-target="#getOffer"
+        >
+          Get offer
+        </button>
+      </div>
+      <!-- HEADER > GET STARTED CONTENT MODEL -->
+      <div
+        class="modal fade"
+        id="getOffer"
+        tabindex="-1"
+        aria-labelledby="getOfferLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="getOfferLabel">New Message</h5>
+              <button
+                class="btn-close"
+                type="button"
+                data-bs-dismiss="modal"
+                aria-label="close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form action="#">
+                <div class="mb-3">
+                  <label for="recipient" class="col-form-label"
+                    >Recipient:</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="recipient"
+                    id="recipient"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="firstName" class="col-form-label"
+                    >First Name:</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="firstName"
+                    id="firstName"
+                    placeholder="Enter Your First Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label
+                    for="lastName"
+                    class="col-form-label"
+                    placeholder="Enter Your Last Name"
+                    >Last Name:</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    placeholder="Enter Your Last Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="col-form-label">Message:</label>
+                  <textarea
+                    type="text"
+                    class="form-control"
+                    id="message"
+                    placeholder="Enter Your Message"
+                  ></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                class="btn btn-danger"
+                type="button"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button class="btn btn-primary" role="submit">
+                Send Message
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="About" class="container mt-5 pt-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <h4 class="font-monospace my-5">About Us!</h4>
+          <h2 class="display-1">Since 2020 Irfan media grows Business</h2>
+        </div>
+      </div>
+      <div
+        class="card border-0 my-3 text-white bg-info mx-auto"
+        style="max-width: 1400px"
+      >
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img
+              src="https://source.unsplash.com/376KN_ISplE"
+              alt="about"
+              class="card-img-top"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="card-body mt-3 p-2 text-center">
+              <h5 class="card-title fs-5 font-monospace">Who are we</h5>
+              <p class="card-text fs-1 mt-3">
+                We keep things simple, putting you in control so you can make
+                informed choices.
+              </p>
+              <button
+                class="btn btn-light mt-3 shadow"
+                role="button"
+                data-bs-toggle="modal"
+                data-bs-target="#aboutModal"
+              >
+                What we D<i
+                  class="bi bi-info-circle"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="right"
+                  title="Learn more..."
+                ></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ABOUT > ABOUT MODEL CONTENT -->
+      <div
+        class="modal fade"
+        id="aboutModal"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="aboutModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="aboutModalLabel">About Us</h5>
+              <nav id="about-content">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a href="#2008" class="nav-link">2008</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#2022" class="nav-link">2014</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#2022" class="nav-link">2018</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#2022" class="nav-link">2022</a>
+                  </li>
+                </ul>
+              </nav>
+              <button
+                class="btn-close"
+                type="button"
+                data-bs-dismiss="modal"
+                aria-label="close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <h4 id="2008">2008</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                nulla sit, quaerat voluptate dignissimos molestiae quasi
+                inventore dolore, libero tempora blanditiis aliquam harum qui ea
+                voluptatibus optio eum. Fuga, neque sunt. Dolorum suscipit
+                cumque odio nisi, tempora libero quaerat fugiat vero eveniet?
+                Dolor dolore deleniti iure et illo assumenda natus.
+              </p>
+              <h4 id="2014">2004</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                nulla sit, quaerat voluptate dignissimos molestiae quasi
+                inventore dolore, libero tempora blanditiis aliquam harum qui ea
+                voluptatibus optio eum. Fuga, neque sunt. Dolorum suscipit
+                cumque odio nisi, tempora libero quaerat fugiat vero eveniet?
+                Dolor dolore deleniti iure et illo assumenda natus.
+              </p>
+              <h4 id="2018">2018</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                nulla sit, quaerat voluptate dignissimos molestiae quasi
+                inventore dolore, libero tempora blanditiis aliquam harum qui ea
+                voluptatibus optio eum. Fuga, neque sunt. Dolorum suscipit
+                cumque odio nisi, tempora libero quaerat fugiat vero eveniet?
+                Dolor dolore deleniti iure et illo assumenda natus.
+              </p>
+              <h4 id="2022">2022</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                nulla sit, quaerat voluptate dignissimos molestiae quasi
+                inventore dolore, libero tempora blanditiis aliquam harum qui ea
+                voluptatibus optio eum. Fuga, neque sunt. Dolorum suscipit
+                cumque odio nisi, tempora libero quaerat fugiat vero eveniet?
+                Dolor dolore deleniti iure et illo assumenda natus.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                class="btn btn-danger"
+                type="button"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TEAM -->
+    <section id="Team" class="container mb-5 pt-4">
+      <div class="row">
+        <div class="col-lg-6">
+          <h4 class="font-monospace my-5">Our Expert Team</h4>
+          <h2 class="display-1">Meet Our Expert Financial Team.</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 mb-5 mb-sm-3">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="https://source.unsplash.com/7YVZYZeITc8"
+              alt="person"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">John Doe</h5>
+              <p class="card-text text-info">Advisor</p>
+              <a
+                class="btn btn-sm btn-info"
+                href="#"
+                tabindex="0"
+                role="button"
+                data-bs-toggle="popover"
+                data-bs-trigger="focus"
+                title="John Doe"
+                data-bs-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                nulla sit, quaerat voluptate dignissimos molestiae quasi
+                inventore dolore, libero tempora blanditiis aliquam harum qui ea
+                voluptatibus optio eum. Fuga, neque sunt."
+                >About John</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-5 mb-sm-3">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="https://source.unsplash.com/RGtSTDmmcCk"
+              alt="person"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Nami</h5>
+              <p class="card-text text-info">Navigator</p>
+              <a
+                class="btn btn-sm btn-info"
+                href="#"
+                tabindex="0"
+                role="button"
+                data-bs-toggle="popover"
+                data-bs-trigger="focus"
+                title="Nami"
+                data-bs-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                nulla sit, quaerat voluptate dignissimos molestiae quasi
+                inventore dolore, libero tempora blanditiis aliquam harum qui ea
+                voluptatibus optio eum. Fuga, neque sunt."
+                >About Nami</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-5 mb-sm-3">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="https://source.unsplash.com/Qy4wpL2B4ac"
+              alt="person"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Robin</h5>
+              <p class="card-text text-info">Philosopher</p>
+              <a
+                class="btn btn-sm btn-info"
+                href="#"
+                tabindex="0"
+                role="button"
+                data-bs-toggle="popover"
+                data-bs-trigger="focus"
+                title="Robin"
+                data-bs-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                nulla sit, quaerat voluptate dignissimos molestiae quasi
+                inventore dolore, libero tempora blanditiis aliquam harum qui ea
+                voluptatibus optio eum. Fuga, neque sunt."
+                >About Robin</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-5 mb-sm-3">
+          <div class="card shadow" style="width: 18rem">
+            <img
+              src="https://source.unsplash.com/u3WmDyKGsrY"
+              alt="person"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Franky</h5>
+              <p class="card-text text-info">Philosopher</p>
+              <a
+                class="btn btn-sm btn-info"
+                href="#"
+                tabindex="0"
+                role="button"
+                data-bs-toggle="popover"
+                data-bs-trigger="focus"
+                title="Franky"
+                data-bs-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                nulla sit, quaerat voluptate dignissimos molestiae quasi
+                inventore dolore, libero tempora blanditiis aliquam harum qui ea
+                voluptatibus optio eum. Fuga, neque sunt."
+                >About Franky</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICES -->
+    <section id="Services" class="container mb-5 pt-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <h4 class="font-monospace my-5">What we Offer!</h4>
+          <h2 class="display-1">Take advantage of our premium services.</h2>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4">
+        <!-- 1st card -->
+        <div class="col card shadow text-white bg-primary mb-5 mb-sm-3">
+          <div class="card-header display-6 mt-2 shadow">
+            <i class="bi bi-briefcase"></i>Financial Advice
+          </div>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            <div class="list-group mb-3">
+              <label for="firstcheckBox" class="list-group-item">
+                <input
+                  type="checkbox"
+                  id="firstcheckBox"
+                  class="form-check-input me-1"
+                />First CheckBox
+              </label>
+              <label for="firstcheckBox" class="list-group-item">
+                <input
+                  type="checkbox"
+                  id="firstcheckBox"
+                  class="form-check-input me-1"
+                />Second CheckBox
+              </label>
+              <label for="firstcheckBox" class="list-group-item">
+                <input
+                  type="checkbox"
+                  id="firstcheckBox"
+                  class="form-check-input me-1"
+                />Third CheckBox
+              </label>
+              <label for="firstcheckBox" class="list-group-item">
+                <input
+                  type="checkbox"
+                  id="firstcheckBox"
+                  class="form-check-input me-1"
+                />Fourth CheckBox
+              </label>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-outline-light">Get Stated</a>
+          </div>
+        </div>
+        <!-- 2nd card -->
+        <div class="col card shadow text-dark bg-info mb-5 mb-sm-3">
+          <div class="card-header display-6 mt-2 shadow">
+            <i class="bi bi-wallet"></i>Investment Advice
+          </div>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            <div class="list-group mb-3">
+              <label for="firstcheckBox" class="list-group-item">
+                <input
+                  type="checkbox"
+                  id="firstcheckBox"
+                  class="form-check-input me-1"
+                />First CheckBox
+              </label>
+              <label for="firstcheckBox" class="list-group-item">
+                <input
+                  type="checkbox"
+                  id="firstcheckBox"
+                  class="form-check-input me-1"
+                />Second CheckBox
+              </label>
+              <label for="firstcheckBox" class="list-group-item">
+                <input
+                  type="checkbox"
+                  id="firstcheckBox"
+                  class="form-check-input me-1"
+                />Third CheckBox
+              </label>
+              <label for="firstcheckBox" class="list-group-item">
+                <input
+                  type="checkbox"
+                  id="firstcheckBox"
+                  class="form-check-input me-1"
+                />Fourth CheckBox
+              </label>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-outline-light">Get Stated</a>
+          </div>
+        </div>
+        <!-- 3rd card -->
+        <div class="col card shadow text-white bg-primary mb-5 mb-sm-3">
+          <div class="card-header display-6 mt-2 shadow">
+            <i class="bi bi-briefcase"></i>Risk Management
+          </div>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            <div class="list-group mb-3">
+              <label for="firstcheckBox" class="list-group-item">
+                <input
+                  type="checkbox"
+                  id="firstcheckBox"
+                  class="form-check-input me-1"
+                />First CheckBox
+              </label>
+              <label for="firstcheckBox" class="list-group-item">
+                <input
+                  type="checkbox"
+                  id="firstcheckBox"
+                  class="form-check-input me-1"
+                />Second CheckBox
+              </label>
+              <label for="firstcheckBox" class="list-group-item">
+                <input
+                  type="checkbox"
+                  id="firstcheckBox"
+                  class="form-check-input me-1"
+                />Third CheckBox
+              </label>
+              <label for="firstcheckBox" class="list-group-item">
+                <input
+                  type="checkbox"
+                  id="firstcheckBox"
+                  class="form-check-input me-1"
+                />Fourth CheckBox
+              </label>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-outline-light">Get Stated</a>
+          </div>
+        </div>
+        <!-- 4th card -->
+        <div class="col card shadow text-dark bg-info mb-5 mb-sm-3">
+          <div class="card-header display-6 mt-2 shadow">
+            <i class="bi bi-briefcase"></i>Tax & Accounting
+          </div>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            <div class="list-group mb-3">
+              <label for="firstcheckBox" class="list-group-item">
+                <input
+                  type="checkbox"
+                  id="firstcheckBox"
+                  class="form-check-input me-1"
+                />First CheckBox
+              </label>
+              <label for="firstcheckBox" class="list-group-item">
+                <input
+                  type="checkbox"
+                  id="firstcheckBox"
+                  class="form-check-input me-1"
+                />Second CheckBox
+              </label>
+              <label for="firstcheckBox" class="list-group-item">
+                <input
+                  type="checkbox"
+                  id="firstcheckBox"
+                  class="form-check-input me-1"
+                />Third CheckBox
+              </label>
+              <label for="firstcheckBox" class="list-group-item">
+                <input
+                  type="checkbox"
+                  id="firstcheckBox"
+                  class="form-check-input me-1"
+                />Fourth CheckBox
+              </label>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-outline-light">Get Stated</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer id="Contact" class="bg-light">
+      <div class="container p-3">
+        <h4 class="text-info text-decoration-underline font-monospace mb-3">Irfan Media</h4>
+        <small class="fw-lighter">Lorem ipsum dolor sit amet consectetur </small>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id alias dolor sint obcaecati dolorem! Repudiandae natus provident reiciendis ipsam aperiam, dolore aliquam eaque aut eos pariatur at fugiat esse quisquam!</p>
+        <div class="row">
+          <div class="col container">
+            <h5>Useful Links</h5>
+            <ul>
+              <li>Home</li>
+              <li>About us</li>
+              <li>Services</li>
+              <li>Blog</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div class="col container">
+            <h5>Solutions</h5>
+            <ul>
+              <li>Invest Planing</li>
+              <li>Tax & Business</li>
+              <li>Risk Management</li>
+              <li>Finance</li>
+              <li>Life & Insurance</li>
+            </ul>
+          </div>
+          <div class="col container">
+            <h5>Contact Us</h5>
+            <ul class="list-group">
+              <li class="list-group-item"><i class="bi bi-house-door m-2 text-info"></i>Raccoon City</li>
+              <li class="list-group-item"><i class="bi bi-signpost-2 m-2 text-info"></i>Elm Str. 333</li>
+              <li class="list-group-item"><i class="bi bi-telephone m-2 text-info"></i>+1654 < /li>
+              <li class="list-group-item"><i class="bi bi-envelope m-2 text-info"></i>info@gmail.com</li>
+              <li class="list-group-item"><i class="bi bi-globe m-2 text-info"></i>www.m_meida.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bg-dark text-light text-center mt-3 p-3">
+        <div class="row">
+          <div class="col-sm-7">
+            &copy; copyright 2020 <span class="font-monospace">Irfan</span>. All Rights reserved
+          </div>
+          <div class="col-sm-5">
+            Designed by <span class="font-monospace">Nobert Bm</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- script Bootstrap JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- script for tooltips -->
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+    <!-- Script for Popovers -->
+    <script>
+      var popoverTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="popover"]')
+      );
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl);
+      });
+    </script>
+  </body>
+</html>
